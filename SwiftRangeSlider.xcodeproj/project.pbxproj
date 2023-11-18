@@ -7,22 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21B7C588694F805972ABA889 /* Pods_SwiftRangeSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCA713F988FE09DF748C40 /* Pods_SwiftRangeSlider.framework */; };
 		E80671301CF27E3F00EAE8FA /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806712D1CF27E3F00EAE8FA /* RangeSlider.swift */; };
 		E80671311CF27E3F00EAE8FA /* RangeSliderKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806712E1CF27E3F00EAE8FA /* RangeSliderKnob.swift */; };
 		E80671321CF27E3F00EAE8FA /* RangeSliderTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806712F1CF27E3F00EAE8FA /* RangeSliderTrack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13BCA713F988FE09DF748C40 /* Pods_SwiftRangeSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftRangeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B00DA9C1D9A5FE900A0A8D7 /* SwiftRangeSlider copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftRangeSlider copy-Info.plist"; path = "/Users/gmabber/Dropbox/code/iphone/SwiftRangeSlider/SwiftRangeSlider copy-Info.plist"; sourceTree = "<absolute>"; };
 		E80671221CF27AFB00EAE8FA /* SwiftRangeSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftRangeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80671271CF27AFB00EAE8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E806712D1CF27E3F00EAE8FA /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
 		E806712E1CF27E3F00EAE8FA /* RangeSliderKnob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderKnob.swift; sourceTree = "<group>"; };
 		E806712F1CF27E3F00EAE8FA /* RangeSliderTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderTrack.swift; sourceTree = "<group>"; };
-		F4C9601CE5B09153BABEA21E /* Pods-SwiftRangeSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftRangeSlider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftRangeSlider/Pods-SwiftRangeSlider.debug.xcconfig"; sourceTree = "<group>"; };
-		F945C7875809BC1BDCB729D1 /* Pods-SwiftRangeSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftRangeSlider.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftRangeSlider/Pods-SwiftRangeSlider.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,37 +26,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B7C588694F805972ABA889 /* Pods_SwiftRangeSlider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B58CD645E8610742E795183 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				13BCA713F988FE09DF748C40 /* Pods_SwiftRangeSlider.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6093D5A44E5D451567813780 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F4C9601CE5B09153BABEA21E /* Pods-SwiftRangeSlider.debug.xcconfig */,
-				F945C7875809BC1BDCB729D1 /* Pods-SwiftRangeSlider.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		E80671181CF27AFB00EAE8FA = {
 			isa = PBXGroup;
 			children = (
 				E80671241CF27AFB00EAE8FA /* SwiftRangeSlider */,
 				E80671231CF27AFB00EAE8FA /* Products */,
-				6093D5A44E5D451567813780 /* Pods */,
-				1B58CD645E8610742E795183 /* Frameworks */,
 				5B00DA9C1D9A5FE900A0A8D7 /* SwiftRangeSlider copy-Info.plist */,
 			);
 			sourceTree = "<group>";
@@ -101,12 +77,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E806712A1CF27AFB00EAE8FA /* Build configuration list for PBXNativeTarget "SwiftRangeSlider" */;
 			buildPhases = (
-				CA939E3578E117E223CF2BCB /* 📦 Check Pods Manifest.lock */,
 				E806711D1CF27AFB00EAE8FA /* Sources */,
 				E806711E1CF27AFB00EAE8FA /* Frameworks */,
 				E806711F1CF27AFB00EAE8FA /* Headers */,
 				E80671201CF27AFB00EAE8FA /* Resources */,
-				38BCA17BB8A3BAF5FFDED61C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,39 +133,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		38BCA17BB8A3BAF5FFDED61C /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftRangeSlider/Pods-SwiftRangeSlider-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CA939E3578E117E223CF2BCB /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E806711D1CF27AFB00EAE8FA /* Sources */ = {
@@ -305,7 +246,6 @@
 		};
 		E806712B1CF27AFB00EAE8FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4C9601CE5B09153BABEA21E /* Pods-SwiftRangeSlider.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -326,7 +266,6 @@
 		};
 		E806712C1CF27AFB00EAE8FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F945C7875809BC1BDCB729D1 /* Pods-SwiftRangeSlider.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
